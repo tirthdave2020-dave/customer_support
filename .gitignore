@@ -1,0 +1,10 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+
+twcs/twcs.csv
+embeddings.npy
+amazon_cases.json
+sample.csv
+faiss.index

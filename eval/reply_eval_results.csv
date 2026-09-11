@@ -1,0 +1,45 @@
+case_id,customer_message,intent,evidence,reply,action,reason
+361,Hey @115821 @AmazonHelp U &amp; whoever Gretchen Stoecker is need to get it together &amp; give me MY BACKPACK!! It’s a week past it’s delivery date,delivery_issue,"Customer: Hey U &amp; whoever Gretchen Stoecker is need to get it together &amp; give me MY BACKPACK!! It’s a week past it’s delivery date
+AmazonHelp: I'm sorry you haven't received your backpack! Have you sent an e-mail to the seller yet: ? ^DD
+Similarity: 0.8570
+
+Customer: Dear can u send me my damn ""her"" album already? Thank u
+AmazonHelp: Hi there! Have we missed the delivery date provided to you at checkout? We'd love to help out, just let us know. ^SA
+Similarity: 0.7239
+
+Customer: where the fuck is my package Yeah, the package has been 'out for delivery' for 5 days now according to tracking and two others have yet to be dispatched
+AmazonHelp: I'm sorry to hear about the trouble, Leah! Have we missed the delivery date given to you in your order confirmation email? ^HC Please reach out to us here: so we can look into this with you in real time! ^ZW
+Similarity: 0.6796
+
+Customer: ordered this package yesterday and it's already here! So glad I can always count on you! 😊 #amazonprime #amazon
+AmazonHelp: And we are glad we can count on you, Heather! Great feedback! 😁 #We'reAlwaysHereForYou ^KN
+Similarity: 0.6767
+
+Customer: Hey regelt das mal mit - die haben schon wieder(!!) meine Prime Lieferung verkackt Heute. Ansonsten würde ich mich nicht beschweren. Ja, danke. Paket ist aktuell in Zustellung.
+AmazonHelp: Hi Sandra, welches Lieferdatum wurde dir denn in der Bestellbestätigung genannt? Liebe Grüße ^TA Hast du dich bei den Kollegen im Kundenservice gemeldet und konnten sie dir mehr Auskunft geben? ^LN Wunderbar :) Schönes Wochenende! ^BL
+Similarity: 0.6687","Reply: I'm sorry to hear you haven't received your backpack! Have you tried contacting the seller directly yet? If you still need assistance, please let us know so we can help look into this for you.
+Action: auto_handle
+Reason: Historical evidence provides a clear and direct response pattern for handling late delivery inquiries regarding third-party sellers.",auto_handle,Historical evidence provides a clear and direct response pattern for handling late delivery inquiries regarding third-party sellers.
+73,"@AmazonHelp Não posso dizer aqui pq vai ser um presente haha 
+Adoro vcs. 💛",feedback_complaint,"Customer: Amazonプライムで鎧武見れるようになってテンションあがった！（笑） Amazonさんから返信貰えるなんて感激です😭 もうAmazonさんがいない生活考えられないので、応援しています😭😭😭 これからも宜しく御願い致します🙇🙇🙇
+AmazonHelp: |´-`)ﾁﾗｯ これからもみなさまのテンションを上げていけるよう、プライムビデオ頑張ってまいります💪('ω'💪)✨ HM 恐れ入ります🙇 こちらこそ、お客様がいらっしゃらなければ生きていけませんので…🙇🙇🙇 応援ありがとうございます‼️✨ これからもよろしくお願いいたします😊 RI ご期待に沿えるように頑張ってまいりますヽ( ´∀｀)人(´∀｀ )ノ リプライいただき誠にありがとうございました🙇 HM
+Similarity: 0.8058
+
+Customer: Amazonプライムでシング見れるようになってる！！！プライムかいいんでよかった🗿🗿 ありがとうございます！めっちゃ楽しませてもらってます！！💪
+AmazonHelp: |´-`)ﾁﾗｯ プライムをお楽しみいただいているようでうれしいです！ 見放題ですので、ご覧になってみたい作品をどんどんお楽しみくださいませ☺️🎥✨ HM それはよかったです😊✨ プライム・ビデオ対象作品は随時更新されていますので、ぜひ時々チェックしてくださいね🎵 RI
+Similarity: 0.7698
+
+Customer: Amazonプライムミュージックにドリカムが入ってるのを発見！JBLに繋いで大音量でお掃除♪♪♪ こちらこそありがとうございます✨お掃除がはかどりました😊 はい！たくさん聴かせて頂きますー♪公式さんからのリプ嬉しい😆 お掃除には「TVCM洋画ソングス」もテンポが良くてぴったりです^ ^これからもプライムミュージックにはお世話になります✨ はーい🙋楽しんでるユーザーが待ってるので、お仕事がんばってくださいね💕
+AmazonHelp: お片付けのおともにプライム・ミュージックのご利用ありがとうございます☺️✨ SK お掃除が捗ったとのことで、何よりです（＾ω＾） 引き続き、Prime Musicをお楽しみくださいませ～♪ (*´-`).｡oO(お掃除の際にPrime Musicながそう～っと。。)TY 「TVCM洋画ソングス」ですね、、( ..)φﾒﾓﾒﾓ 勝手に突撃させていただいたのに、喜んでいただけて嬉しいです(*ﾉωﾉ) 朝のお忙しい時間帯に、リプライいただきまして、ありがとうございました。 今後ともどうぞご贔屓に。。。。(‘v`◎)TY ありがとうございます！ ｶﾞﾝﾊﾞ━━━o(・`ω´・)○))━━━ ﾙ!!! TY
+Similarity: 0.7608
+
+Customer: Amazonで頼んだとりだんごの巣が届きました🐣 早速ウチのボール達が遊んでます🎾 #ことり隊 #とりだんご 可愛いですよね😊 amazonさんは品数も配送も早いので助かります🐤また利用しますね🎾 こちらこそです🐤またよろしくお願いします🎾
+AmazonHelp: とりだんご！食べちゃいたいくらいかわいいですね。アマゾンのご利用ありがとうございます。🐣🐣🐣 ET お役に立ててなによりです！お客様のまたのご利用を心よりお待ちしております(*•ө•*)💕 SM 今後ともどうぞご贔屓に。。。。(‘v`◎)TY
+Similarity: 0.7469
+
+Customer: 🎊 #グランド・ツアー S2 12/8配信開始決定🎊 これが「世界一」の番組だ！ #ジェレミー・クラークソン #リチャード・ハモンド #ジェームズ・メイ のトリオがついに帰還！ 魅力あふれる予告編も公開👀シーズン1はこちらから⇒ シーズン1と翻訳者は同じですか？
+AmazonHelp: 記載の件については確認のうえ、あらためてご案内させていただきます。 恐れ入りますがお待ちいただきますようお願いします。MH
+Similarity: 0.7435","Reply: Ficamos muito felizes em saber disso! Muito obrigado pelo carinho. Se precisar de qualquer ajuda com o seu pedido ou com a escolha do presente, conte sempre conosco. 💛
+
+Action: auto_handle
+Reason: The customer is sharing positive feedback and a friendly comment. The historical evidence clearly supports acknowledging customer compliments with a warm and appreciative response.",auto_handle,The customer is sharing positive feedback and a friendly comment. The historical evidence clearly supports acknowledging customer compliments with a warm and appreciative response.

@@ -1,0 +1,41 @@
+case_id,customer_message,proposed_label,expected_action,review_status
+391,@115850 my account is on hold what should i do,account_issue,escalate,needs_human_review
+377,@AmazonHelp I was going to take a 20% reduction on the second damaged one but decided to get a refund. Already wasted 4 days (2 delivery and 2 pickups).  Would have expected a bit more of a gesture for the hassle being a prime and an unlimited customer.,account_issue,escalate,needs_human_review
+172,@AmazonHelp Je l’ai fait 2 fois je reçois mail de confirmation mais après plus rien,account_issue,escalate,needs_human_review
+194,The terrible experience with @115850 continues. They changed my delivery address even after I told them to NOT do it.,delivery_issue,auto_handle,needs_human_review
+126,@115850  order# 406-6387419-0680305 was to rch on 6th Oct. Didn't happen.Last assured dt was 9th Oct. Still not rec'd. #Horrible service!!,delivery_issue,auto_handle,needs_human_review
+3,All of a sudden Amazon lost my package again. 💀,delivery_issue,auto_handle,needs_human_review
+433,@115850 Pathetic Customer support by Amazon.,feedback_complaint,auto_handle,needs_human_review
+168,だから！Amazonさん！箱が！箱が！でかいんだよおおおおお！w https://t.co/OuEgmW6ilx,feedback_complaint,auto_handle,needs_human_review
+369,@AmazonHelp Thanks. Customer care helped me resolve the issue. Much appreciated!,feedback_complaint,auto_handle,needs_human_review
+220,"Hi @AmazonHelp, I am writing bc I got charged twice. I am wondering if you can help me with this situation please? Thank you!",payment_issue,escalate,needs_human_review
+75,"@115850 My order  ID 
+407-3140681-7180313, used SBI debit card. Let me know when my cash back will be credited?",payment_issue,escalate,needs_human_review
+475,"@AmazonHelp As i ask them, they told do not worry for the option u r eligible for the cashback you can buy your prime membership and the cashback will be credited into your account within 15 days",payment_issue,escalate,needs_human_review
+82,"@AmazonHelp Unfortunately I don’t think it’s going to suit the change in circumstances and location.
+Is it possible to get a partial refund on my annual subscription? Think it renewed in Sept. so bit of a waste if not. 😞",prime_membership,auto_handle,needs_human_review
+451,@AmazonHelp It does not show. Here it is the printscreen https://t.co/fgzYTDoQ93,prime_membership,auto_handle,needs_human_review
+173,"@AmazonHelp Posso fazer uma pergunta, essaa letras no final sao os nomes de vcs?",prime_membership,auto_handle,needs_human_review
+489,@AmazonHelp https://t.co/Aj5dIyBBlY this is the item,product_information,auto_handle,needs_human_review
+57,"@115850 What's the best gift I can give to my wife on Diwali from the #AmazonGreatIndianFestival
+#DiwaliKiTayyariWithPammiAunty",product_information,auto_handle,needs_human_review
+472,@115850 any plans on setting up a new Warehouse between Dhule and Malegaon in Maharashtra?,product_information,auto_handle,needs_human_review
+415,@AmazonHelp I already did. They confirmed it was happened during packaging of courier. I want to file complaint about this.,product_issue,auto_handle,needs_human_review
+316,Just received a “lightly used” book from @115821 and 50 pages were ripped out of it ha ha ha,product_issue,auto_handle,needs_human_review
+491,@115850  @AmazonHelp  Got one of my order today. But received damaged item. See DM for order number and pics.,product_issue,auto_handle,needs_human_review
+92,"@AmazonHelp I already contacted for refund. But they generated replacement &amp; told me that refund request generated. 
+408-4725568-6535559",refund_issue,auto_handle,needs_human_review
+373,@115850 #402-4628945-2516340 process refund..suppose to get order by Oct. 18,refund_issue,auto_handle,needs_human_review
+9,"@115850 You r worst at price regulation. Refund is not so easy, takes 10-20 days.",refund_issue,auto_handle,needs_human_review
+109,@AmazonHelp I will NOT be in for re-delivery. Where’s the option to re-deliver when someone’s in?,return_replacement,auto_handle,needs_human_review
+70,@115821 was sent the wrong package &amp; requested a return&amp;refund on aug 17. ups never picked up &amp; i can't reissue a new return bc its pending,return_replacement,auto_handle,needs_human_review
+26,"Hello @115850 Can you please arrange pick up service for my this order ?
+@AmazonHelp https://t.co/woULmy8gFs",return_replacement,auto_handle,needs_human_review
+16,@115821 you locked my acct bc we had a cc hacked. Please contact me. I’ve updated my acct cc but still locked!,security_fraud,escalate,needs_human_review
+465,"@AmazonHelp
+It hurts.... https://t.co/icC5E3j9cf",security_fraud,escalate,needs_human_review
+404,@115850 What a careless &amp; irresponsible Amazon is ! I cell with box &amp; receipt stolen. Need duplicate bill. Cannot contact Amazon.,security_fraud,escalate,needs_human_review
+23,@116090 @AmazonHelp,seller_marketplace,auto_handle,needs_human_review
+423,@AmazonHelp The android app on my Galaxy S5 2015 isn't loading anything! Neither does my browser when I try login to https://t.co/7be47frdXs,technical_issue,auto_handle,needs_human_review
+94,@AmazonHelp Please suggest what is minimum speed requirements to download 1080p content? I have 50mpbs connection at home where i download,technical_issue,auto_handle,needs_human_review
+11,@AmazonHelp 406-8278391-3464305 my order ID. The link you sent isn't opening.,technical_issue,auto_handle,needs_human_review
