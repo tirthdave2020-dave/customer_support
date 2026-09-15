@@ -256,8 +256,7 @@ The repository does not contain an API key.
 From the project root:
 
 ```bash
-python app.py
-```
+python -m streamlit run app.py
 
 Enter a customer message when prompted.
 
@@ -670,7 +669,6 @@ GEMINI_API_KEY=your_api_key_here
 Then:
 
 ```bash
-python app.py
-```
+python -m streamlit run app.py
 
 The Gemini API key is user-provided and is not included in this repository.
