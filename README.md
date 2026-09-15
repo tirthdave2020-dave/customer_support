@@ -258,7 +258,7 @@ From the project root:
 ```bash
 python -m streamlit run app.py
 
-Enter a customer message when prompted.
+application will open in your browser
 
 Example:
 
