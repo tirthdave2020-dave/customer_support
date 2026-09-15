@@ -1,48 +1,64 @@
-from src.llm import classify_intent, get_relevant_cases, generate_response
+from src.llm import (
+    classify_intent,
+    get_relevant_cases,
+    generate_response
+)
 
+print("Amazon Customer Support AI Agent")
+print("----------------------------------")
 
-def run_agent(customer_message):
+customer_message = input("Enter customer message: ")
 
-    intent = classify_intent(customer_message)
+print("\nClassifying intent...")
+intent = classify_intent(customer_message)
 
-    # Security cases don't need retrieval
-    if intent == "security_fraud":
-        result = generate_response(
-            customer_message,
-            intent,
-            []
-        )
+print(f"Intent: {intent}")
 
-    else:
-        results = get_relevant_cases(
-            customer_message,
-            k=5
-        )
+print("\nRetrieving relevant historical cases...")
 
-        result = generate_response(
-            customer_message,
-            intent,
-            results
-        )
+if intent == "security_fraud":
+    results = []
+else:
+    results = get_relevant_cases(
+        customer_message,
+        k=5
+    )
 
-    return {
-        "intent": intent,
-        "reply": result["reply"],
-        "action": result["action"],
-        "reason": result["reason"]
-    }
+print(f"Retrieved {len(results)} historical cases.")
 
+print("\nGenerating response...")
 
-if __name__ == "__main__":
+result = generate_response(
+    customer_message,
+    intent,
+    results
+)
 
-    print("Amazon Customer Support AI Agent")
-    print("--------------------------------")
+print("\n----------------------------------")
+print("FINAL RESULT")
+print("----------------------------------")
 
-    customer_message = input("\nCustomer message: ")
+print(f"\nIntent: {intent}")
 
-    result = run_agent(customer_message)
+print(f"\nReply:\n{result['reply']}")
 
-    print("\nIntent:", result["intent"])
-    print("Reply:", result["reply"])
-    print("Action:", result["action"])
-    print("Reason:", result["reason"])
+print(f"\nAction: {result['action']}")
+
+print(f"\nReason:\n{result['reason']}")
+
+if results:
+    print("\n----------------------------------")
+    print("HISTORICAL EVIDENCE")
+    print("----------------------------------")
+
+    for i, item in enumerate(results, 1):
+        case = item["case"]
+
+        print(f"\nCase {i}")
+        print(f"Similarity: {item['score']:.4f}")
+
+        print("\nCustomer:")
+        print(" ".join(case["customer_messages"]))
+
+        print("\nAmazonHelp:")
+        print(" ".join(case["amazon_replies"]))
